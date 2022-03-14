@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap");
+/* 
+
+/* Cursor */
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #c471ed;
+}
+
+/* Gradient */
+.gradient {
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700 !important;
+}
+
+body {
+  font-family: Poppins, sans-serif !important;
+}
+
+h1 {
+  font-size: 70px !important;
+  font-weight: 700 !important;
+  line-height: 70px !important;
+}
+
+h2 {
+  font-size: 35px !important;
+  font-weight: 540 !important;
+  /* line-height: 70px !important; */
+}
+
+h3 {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  /* line-height: 1 !important; */
+}
+
+p {
+  color: #e5e5e5 !important;
+}
+
+.bg-black {
+  background: #000 !important;
+}
+
+/* Navbar  */
+
+.navbar--logo {
+  width: 150px;
+}
+
+.nav-link {
+  color: #e5e5e5 !important;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#navbar .fab {
+  font-size: 1.3rem;
+  color: #e5e5e5 !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+/* Home */
+#home {
+  background-color: black;
+}
+
+#home img {
+  width: 100%;
+}
+/* Buttons */
+
+.btn-primary {
+  height: 46px !important;
+  width: 150px !important;
+  background: #0ea5e9 !important;
+  border-radius: 20px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.btn-secondary {
+  height: 40px !important;
+  width: 130px !important;
+  background: #c471ed !important;
+  border: none !important;
+  border-radius: 20px !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Skills */
+.descr {
+  padding-bottom: 50px;
+}
+
+/* Experience */
+#experience {
+  background-color: black;
+}
+
+/* Projects */
+.card {
+  background: linear-gradient(
+    179.83deg,
+    rgba(144, 19, 254, 0.2) -43.97%,
+    rgba(196, 113, 237, 0.095) 102.91%
+  ) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+  border-radius: 16px !important;
+  border: 1px !important;
+  width: 350px;
+  height: 565px;
+  border: 2px solid;
+}
+
+.card-text {
+  color: #272e36 !important;
+  font-weight: 20;
+  font-size: 15px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #c471ed;
+}
+
+.card-img-top {
+  border-radius: 16px 16px 0px 0px !important ;
+  height: 206px !important;
+  background-size: cover !important;
+}
+
+#projects .bankist {
+  width: auto;
+}
+
+/* Media Query */
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 50px !important;
+    font-weight: 700 !important;
+  }
+}
