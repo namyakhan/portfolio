@@ -103,6 +103,11 @@ p {
   display: flex !important;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0px !important;
+}
+
+.btncode:hover {
+  color: #000 !important;
 }
 
 /* Skills */
@@ -154,11 +159,32 @@ p {
   width: auto;
 }
 
+/* footer */
+footer .fab {
+  color: white !important;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 7px;
+  margin: 0px 10px;
+}
+footer p {
+  font-weight: lighter;
+  font-size: 11px;
+}
+
 /* Media Query */
 
 @media (max-width: 425px) {
   h1 {
     font-size: 50px !important;
     font-weight: 700 !important;
+  }
+
+  .card {
+    width: 300px;
+    height: 530px;
   }
 }
